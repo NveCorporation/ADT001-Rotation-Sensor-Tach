@@ -2,7 +2,7 @@
 Tachometer using NVE ADT001 noncontact magnetic rotation sensor
 Arduino pin 2 to Sensor Sin output; pin 3 to Cos; pin 13 indicates direction; 
 pins 7 to Rx on COM-11441 7-segment display for RPM; pin 5 is RPM variability PWM output
-See https://www.nve.com/webstore/catalog for sensors and PCBs
+See https://www.nve.com/webstore/catalog/product_info.php?products_id=646 for sensor info
 ****************************************************************************************/       
 #include <SoftwareSerial.h>
 SoftwareSerial s7s(6, 7); //Pin 7 to Rx on 7-segment display
